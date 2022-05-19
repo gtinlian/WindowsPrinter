@@ -5,15 +5,9 @@ import fun.ipconfig.print.HtmlToImage;
 import fun.ipconfig.print.PngPrint;
 import fun.ipconfig.print.QrCode;
 
-import javax.print.*;
-import javax.print.attribute.DocAttributeSet;
-import javax.print.attribute.HashDocAttributeSet;
-import javax.print.attribute.HashPrintRequestAttributeSet;
-import javax.print.attribute.PrintRequestAttributeSet;
-import javax.print.attribute.standard.MediaPrintableArea;
+import javax.print.PrintException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.OutputStream;
 
 public class SimpleTemplate {
