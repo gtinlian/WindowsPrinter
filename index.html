@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-weight: 500;
+            font-size: 24px;
+
+        }
+
+        h2 {
+            font-weight: 560;
+            margin-top: 0px;
+        }
+
+        body {
+            font-family: "小楷";
+            width: 250px;
+            padding: 0 0;
+            margin: 0 0;
+            overflow: hidden;
+            font-size: large;
+        }
+
+        #RqCode {
+            width: 125px;
+            height: 125px;
+            float: right;
+        }
+        #shopImage {
+            margin-top: 12px;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+
+        #head {
+            text-align: center;
+        }
+
+        ul {
+            padding-left: 0px;
+        }
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<h2 id="head">好美味旗舰店</h2>
+
+
+<div>
+    <hr/>
+</div>
+<ul>
+    <!--  配置选项 一个li 对象代码中的高度值，每增加一个li就要添加5的高度，详细查看Simpletemplate例子中的li参数 -->
+    <li>
+        <div class="cenId" style="overflow: hidden;">
+            <div style='float: left;'>类型：</div>
+            <div style="float: right;">价格</div>
+        </div>
+    </li>
+</ul>
+
+
+<div>
+    <hr/>
+</div>
+
+<div style="overflow: hidden;">
+    <div style="float: right;">
+        合计： 1024
+    </div>
+</div>
+
+<div style="overflow: hidden;">
+    <img id="shopImage" src="shopLog.jpeg">
+    <img src="./qrcode.png" id="RqCode"/>
+</div>
+
+
+<hr>
+<div style="height: 5px; width: 2px"></div>
+<div style="overflow: hidden;">
+    <div style="float: right;">..</div>
+
+</div>
+
+</body>
+</html>
